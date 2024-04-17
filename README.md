@@ -13,7 +13,7 @@ Pls provide clarifiactions on the comments
 - [Vehicles API](vehicles-api/README.md)
 - [Pricing Service](pricing-service/README.md)
 - [Boogle Maps](boogle-maps/README.md)
-- [sale] order service impl
+- [sale] (sale/README.md)
 - [Eureka] Code base for Eureka server
 
 ## Dependencies
