@@ -19,7 +19,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 /**
  * Declares the Car class, related variables and methods.
- */
+ */ 
 @Entity
 @EntityListeners(AuditingEntityListener.class)
 public class Car {
@@ -104,4 +104,12 @@ public class Car {
     public void setPrice(String price) {
         this.price = price;
     }
+
+	@Override
+	public String toString() {
+		return "Car [id=" + id + ", createdAt=" + createdAt + ", modifiedAt=" + modifiedAt + ", condition=" + condition
+				+ ", details=" + details + ", location=" + location + ", price=" + price + "]";
+	}
+    
+    
 }

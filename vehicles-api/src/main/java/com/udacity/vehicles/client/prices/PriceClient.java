@@ -1,7 +1,10 @@
 package com.udacity.vehicles.client.prices;
 
+import java.math.BigDecimal;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -35,7 +38,8 @@ public class PriceClient {
             Price price = client
                     .get()
                     .uri(uriBuilder -> uriBuilder
-                            .path("services/price/")
+                    		.path("/services/price")
+                          //  .path("services/price/") //Incorrect URL - modified 
                             .queryParam("vehicleId", vehicleId)
                             .build()
                     )
@@ -48,4 +52,37 @@ public class PriceClient {
         }
         return "(consult price)";
     }
+
+	public String updatePrice(Double price, Long vehicleId) {
+		Price update= new Price("USD",BigDecimal.valueOf(price),vehicleId);
+	      try {
+	            Price priceC = client
+	                    .put()
+	                    .uri(uriBuilder -> uriBuilder
+	                    		.path("/services/price")
+	                            .queryParam("vehicleId", vehicleId)
+	                            .build()
+	                    ).contentType(MediaType.APPLICATION_JSON)	.syncBody(update)
+	                    .retrieve().bodyToMono(Price.class).block();
+
+	            return String.format("%s %s", priceC.getCurrency(), priceC.getPrice());
+
+	        } catch (Exception e) {
+	            log.error("Unexpected error retrieving price for vehicle {}", vehicleId, e);
+	        }
+	        return "(consult price)";
+		
+	}
+
+	public void deletePrice(Long vehicleId) {
+	System.out.println("deletePrice"+ vehicleId);
+	      try {
+	    	  
+	    	 client.delete().
+	            		uri("/services/price/{id}", vehicleId)	.retrieve().bodyToMono(Long.class).block();
+
+	        } catch (Exception e) {
+	            log.error("Unexpected error retrieving price for vehicle {}", vehicleId, e);
+	        }	     		
+	}
 }

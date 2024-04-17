@@ -1,12 +1,18 @@
 package com.udacity.vehicles.client.maps;
 
-import com.udacity.vehicles.domain.Location;
+import java.util.List;
 import java.util.Objects;
+
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import com.udacity.vehicles.domain.Location;
+import com.udacity.vehicles.exception.BoogleApiException;
 
 /**
  * Implements a class to interface with the Maps Client for location data.
@@ -19,6 +25,7 @@ public class MapsClient {
     private final WebClient client;
     private final ModelMapper mapper;
 
+    
     public MapsClient(WebClient maps,
             ModelMapper mapper) {
         this.client = maps;
@@ -33,22 +40,61 @@ public class MapsClient {
      */
     public Location getAddress(Location location) {
         try {
-            Address address = client
+            List<Address> address = client
                     .get()
                     .uri(uriBuilder -> uriBuilder
                             .path("/maps/")
                             .queryParam("lat", location.getLat())
                             .queryParam("lon", location.getLon())
                             .build()
-                    )
-                    .retrieve().bodyToMono(Address.class).block();
+                    ) .retrieve().bodyToMono(new ParameterizedTypeReference<List<Address>>() {}).block();
 
-            mapper.map(Objects.requireNonNull(address), location);
-
+            if(address == null )throw new BoogleApiException("Address not Found, Pls earch with Vehicle Id");
+            else if (address.isEmpty()) throw new BoogleApiException("Address not Found, Pls earch with Vehicle Id");
+            //Each Vehicle should be mapped to new location
+            else if (address.size()>1) throw new BoogleApiException("More than one address Found, Pls search with Vehicle Id");
+            else  mapper.map(Objects.requireNonNull(address.get(0)), location);
+          
             return location;
         } catch (Exception e) {
             log.warn("Map service is down");
-            return location;
+            if(e.getMessage() == null) throw new BoogleApiException("Boogle API is down. Pls Try After sometimes .. !");    
+            else throw new BoogleApiException(e.getMessage());    
+        	      
         }
     }
+    
+    
+    /**
+     * @param location
+     * @param vehileId
+     * @return
+     */
+    public Location updateAddress(Location location, Long vehileId ) {
+        try {
+	
+        	Location locUpdated = client.put().
+            		uri("/maps/{id}", vehileId)
+            		.contentType(MediaType.APPLICATION_JSON)
+            		.syncBody(location)
+            		.retrieve().bodyToMono(Location.class).block();
+            return locUpdated;
+        } catch (Exception e) {
+            log.warn("Map service is down");
+            throw new BoogleApiException("Boogle API is down. Pls Try After sometimes .. !");          
+        }
+    }
+
+	public void deleteAddress(Long vehileId) {
+		 try {
+			 Long locDeleted= client.delete().
+	            		uri("/maps/{id}", vehileId)	.retrieve().bodyToMono(Long.class).block();
+	            		
+//			if(locDeleted == vehileId) log.info("Location info has been removed for the ID " + vehileId);
+//			else  log.warn("Failed to removed the Location info for the ID" + vehileId);
+	        } catch (Exception e) {
+	        	throw new BoogleApiException("Boogle API is down. Pls Try After sometimes .. !");          
+	        }
+	    }
+	
 }
