@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Creates a Spring Boot Application to run the Pricing Service.
  * TODO: Convert the application from a REST API to a microservice.
+ * Solution : Modify application.properties and POM.xml of Pricing-Service
+ * Create  project with the Eureka server at the port 8761 by configuring appropriate application.properties and POM.xml
  */
 @SpringBootApplication
 public class PricingServiceApplication {

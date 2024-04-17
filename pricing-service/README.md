@@ -2,7 +2,7 @@
 
 The Pricing Service is a REST WebService that simulates a backend that
 would store and retrieve the price of a vehicle given a vehicle id as
-input. In this project, you will convert it to a microservice.
+input. 
 
 
 ## Features
@@ -11,10 +11,11 @@ input. In this project, you will convert it to a microservice.
 
 ## Instructions
 
-#### TODOs
+#### TODOs => Completed
 
-- Convert the Pricing Service to be a microservice.
-- Add an additional test to check whether the application appropriately generates a price for a given vehicle ID
+- Modify the pom.xml added all dependencies
+- Pricing Service has been converted into microservices by Creating  project with the Eureka server at the port 8761 by configuring appropriate application.properties and POM.xml
+- Added an additional test to check whether the application appropriately generates a price for a given vehicle ID
 
 #### Run the code
 
