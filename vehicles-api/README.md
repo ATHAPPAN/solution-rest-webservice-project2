@@ -15,11 +15,11 @@ view of vehicle details including price and address.
 
 ## Instructions
 
-#### TODOs
+#### TODOs => completed 
 
-- Implement the `TODOs` within the `CarService.java` and `CarController.java`  files
-- Add additional tests to the `CarControllerTest.java` file based on the `TODOs`
-- Implement API documentation using Swagger
+- Implemented the `TODOs` within the `CarService.java` and `CarController.java`  files
+- Added additional tests to the `CarControllerTest.java` file based on the `TODOs`
+- Implemented API documentation using Swagger
 
 #### Run the Code
 
@@ -63,8 +63,8 @@ Swagger UI: http://localhost:8080/swagger-ui.html
       "externalColor":"white"
    },
    "location":{
-      "lat":40.73061,
-      "lon":-73.935242
+     "lat": 0.0,
+      "lon": -1.0
    }
 }
 ```
@@ -100,8 +100,8 @@ the Vehicle information to be presented
       "externalColor":"white"
    },
    "location":{
-      "lat":40.73061,
-      "lon":-73.935242
+      "lat": 0.0,
+      "lon": -1.0
    }
 }
 ```
