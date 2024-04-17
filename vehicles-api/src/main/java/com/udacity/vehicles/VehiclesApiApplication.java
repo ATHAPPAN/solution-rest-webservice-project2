@@ -65,5 +65,17 @@ public class VehiclesApiApplication {
     public WebClient webClientPricing(@Value("${pricing.endpoint}") String endpoint) {
         return WebClient.create(endpoint);
     }
+    
+    /**
+     * Web Client for the order API
+     * @param endpoint where to communicate for the order API
+     * @return created pricing endpoint
+     */
+    @Bean(name="sale")
+    public WebClient webClientOrder(@Value("${order.endpoint}") String endpoint) {
+        return WebClient.create(endpoint);
+    }
+    
+    
 
 }
