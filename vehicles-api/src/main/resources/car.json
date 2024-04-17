@@ -1,0 +1,38 @@
+{
+    "id": 1,
+    "createdAt": "2024-04-05T19:34:37.87145",
+    "modifiedAt": "2024-04-05T19:34:37.87145",
+    "condition": "USED",
+    "details": {
+        "body": "sedan",
+        "model": "Impala",
+        "manufacturer": {
+            "code": 101,
+            "name": "Chevrolet"
+        },
+        "numberOfDoors": 4,
+        "fuelType": "Gasoline",
+        "engine": "3.6L V6",
+        "mileage": 32280,
+        "modelYear": 2018,
+        "productionYear": 2018,
+        "externalColor": "white"
+    },
+    "location": {
+        "lat": 40.73061,
+        "lon": -73.935242,
+        "address": "2 Gannett Dr",
+        "city": "Johnson City",
+        "state": "NY",
+        "zip": "13790"
+    },
+    "price": "USD 15196.79",
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/cars/1"
+        },
+        "cars": {
+            "href": "http://localhost:8080/cars"
+        }
+    }
+}
