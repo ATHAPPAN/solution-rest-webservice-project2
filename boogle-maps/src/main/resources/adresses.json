@@ -1,0 +1,2108 @@
+[
+    {
+        "vehicleId": 1,
+        "lat": 0.0,
+        "lon": -1.0,
+        "address": "777 Brockton Avenue",
+        "city": "Abington",
+        "state": "MA",
+        "zip": "2351"
+    },
+    {
+        "vehicleId": 2,
+        "lat": -2.0,
+        "lon": -3.0,
+        "address": "30 Memorial Drive",
+        "city": "Avon",
+        "state": "MA",
+        "zip": "2322"
+    },
+    {
+        "vehicleId": 3,
+        "lat": -4.0,
+        "lon": -5.0,
+        "address": "250 Hartford Avenue",
+        "city": "Bellingham",
+        "state": "MA",
+        "zip": "2019"
+    },
+    {
+        "vehicleId": 4,
+        "lat": -6.0,
+        "lon": -7.0,
+        "address": "700 Oak Street",
+        "city": "Brockton",
+        "state": "MA",
+        "zip": "2301"
+    },
+    {
+        "vehicleId": 5,
+        "lat": -8.0,
+        "lon": -9.0,
+        "address": "66-4 Parkhurst Rd",
+        "city": "Chelmsford",
+        "state": "MA",
+        "zip": "1824"
+    },
+    {
+        "vehicleId": 6,
+        "lat": -10.0,
+        "lon": -11.0,
+        "address": "591 Memorial Dr",
+        "city": "Chicopee",
+        "state": "MA",
+        "zip": "1020"
+    },
+    {
+        "vehicleId": 7,
+        "lat": -12.0,
+        "lon": -13.0,
+        "address": "55 Brooksby Village Way",
+        "city": "Danvers",
+        "state": "MA",
+        "zip": "1923"
+    },
+    {
+        "vehicleId": 8,
+        "lat": -14.0,
+        "lon": -15.0,
+        "address": "137 Teaticket Hwy",
+        "city": "East Falmouth",
+        "state": "MA",
+        "zip": "2536"
+    },
+    {
+        "vehicleId": 9,
+        "lat": -16.0,
+        "lon": -17.0,
+        "address": "42 Fairhaven Commons Way",
+        "city": "Fairhaven",
+        "state": "MA",
+        "zip": "2719"
+    },
+    {
+        "vehicleId": 10,
+        "lat": -18.0,
+        "lon": -19.0,
+        "address": "374 William S Canning Blvd",
+        "city": "Fall River",
+        "state": "MA",
+        "zip": "2721"
+    },
+    {
+        "vehicleId": 11,
+        "lat": -20.0,
+        "lon": -21.0,
+        "address": "121 Worcester Rd",
+        "city": "Framingham",
+        "state": "MA",
+        "zip": "1701"
+    },
+    {
+        "vehicleId": 12,
+        "lat": -22.0,
+        "lon": -23.0,
+        "address": "677 Timpany Blvd",
+        "city": "Gardner",
+        "state": "MA",
+        "zip": "1440"
+    },
+    {
+        "vehicleId": 13,
+        "lat": -24.0,
+        "lon": -25.0,
+        "address": "337 Russell St",
+        "city": "Hadley",
+        "state": "MA",
+        "zip": "1035"
+    },
+    {
+        "vehicleId": 14,
+        "lat": -26.0,
+        "lon": -27.0,
+        "address": "295 Plymouth Street",
+        "city": "Halifax",
+        "state": "MA",
+        "zip": "2338"
+    },
+    {
+        "vehicleId": 15,
+        "lat": -28.0,
+        "lon": -29.0,
+        "address": "1775 Washington St",
+        "city": "Hanover",
+        "state": "MA",
+        "zip": "2339"
+    },
+    {
+        "vehicleId": 16,
+        "lat": -30.0,
+        "lon": -31.0,
+        "address": "280 Washington Street",
+        "city": "Hudson",
+        "state": "MA",
+        "zip": "1749"
+    },
+    {
+        "vehicleId": 17,
+        "lat": -32.0,
+        "lon": -33.0,
+        "address": "20 Soojian Dr",
+        "city": "Leicester",
+        "state": "MA",
+        "zip": "1524"
+    },
+    {
+        "vehicleId": 18,
+        "lat": -34.0,
+        "lon": -35.0,
+        "address": "11 Jungle Road",
+        "city": "Leominster",
+        "state": "MA",
+        "zip": "1453"
+    },
+    {
+        "vehicleId": 19,
+        "lat": -36.0,
+        "lon": -37.0,
+        "address": "301 Massachusetts Ave",
+        "city": "Lunenburg",
+        "state": "MA",
+        "zip": "1462"
+    },
+    {
+        "vehicleId": 20,
+        "lat": -38.0,
+        "lon": -39.0,
+        "address": "780 Lynnway",
+        "city": "Lynn",
+        "state": "MA",
+        "zip": "1905"
+    },
+    {
+        "vehicleId": 21,
+        "lat": -40.0,
+        "lon": -41.0,
+        "address": "70 Pleasant Valley Street",
+        "city": "Methuen",
+        "state": "MA",
+        "zip": "1844"
+    },
+    {
+        "vehicleId": 22,
+        "lat": -42.0,
+        "lon": -43.0,
+        "address": "830 Curran Memorial Hwy",
+        "city": "North Adams",
+        "state": "MA",
+        "zip": "1247"
+    },
+    {
+        "vehicleId": 23,
+        "lat": -44.0,
+        "lon": -45.0,
+        "address": "1470 S Washington St",
+        "city": "North Attleboro",
+        "state": "MA",
+        "zip": "2760"
+    },
+    {
+        "vehicleId": 24,
+        "lat": -46.0,
+        "lon": -47.0,
+        "address": "506 State Road",
+        "city": "North Dartmouth",
+        "state": "MA",
+        "zip": "2747"
+    },
+    {
+        "vehicleId": 25,
+        "lat": -48.0,
+        "lon": -49.0,
+        "address": "742 Main Street",
+        "city": "North Oxford",
+        "state": "MA",
+        "zip": "1537"
+    },
+    {
+        "vehicleId": 26,
+        "lat": -50.0,
+        "lon": -51.0,
+        "address": "72 Main St",
+        "city": "North Reading",
+        "state": "MA",
+        "zip": "1864"
+    },
+    {
+        "vehicleId": 27,
+        "lat": -52.0,
+        "lon": -53.0,
+        "address": "200 Otis Street",
+        "city": "Northborough",
+        "state": "MA",
+        "zip": "1532"
+    },
+    {
+        "vehicleId": 28,
+        "lat": -54.0,
+        "lon": -55.0,
+        "address": "180 North King Street",
+        "city": "Northhampton",
+        "state": "MA",
+        "zip": "1060"
+    },
+    {
+        "vehicleId": 29,
+        "lat": -56.0,
+        "lon": -57.0,
+        "address": "555 East Main St",
+        "city": "Orange",
+        "state": "MA",
+        "zip": "1364"
+    },
+    {
+        "vehicleId": 30,
+        "lat": -58.0,
+        "lon": -59.0,
+        "address": "555 Hubbard Ave-Suite 12",
+        "city": "Pittsfield",
+        "state": "MA",
+        "zip": "1201"
+    },
+    {
+        "vehicleId": 31,
+        "lat": -60.0,
+        "lon": -61.0,
+        "address": "300 Colony Place",
+        "city": "Plymouth",
+        "state": "MA",
+        "zip": "2360"
+    },
+    {
+        "vehicleId": 32,
+        "lat": -62.0,
+        "lon": -63.0,
+        "address": "301 Falls Blvd",
+        "city": "Quincy",
+        "state": "MA",
+        "zip": "2169"
+    },
+    {
+        "vehicleId": 33,
+        "lat": -64.0,
+        "lon": -65.0,
+        "address": "36 Paramount Drive",
+        "city": "Raynham",
+        "state": "MA",
+        "zip": "2767"
+    },
+    {
+        "vehicleId": 34,
+        "lat": -66.0,
+        "lon": -67.0,
+        "address": "450 Highland Ave",
+        "city": "Salem",
+        "state": "MA",
+        "zip": "1970"
+    },
+    {
+        "vehicleId": 35,
+        "lat": -68.0,
+        "lon": -69.0,
+        "address": "1180 Fall River Avenue",
+        "city": "Seekonk",
+        "state": "MA",
+        "zip": "2771"
+    },
+    {
+        "vehicleId": 36,
+        "lat": -70.0,
+        "lon": -71.0,
+        "address": "1105 Boston Road",
+        "city": "Springfield",
+        "state": "MA",
+        "zip": "1119"
+    },
+    {
+        "vehicleId": 37,
+        "lat": -72.0,
+        "lon": -73.0,
+        "address": "100 Charlton Road",
+        "city": "Sturbridge",
+        "state": "MA",
+        "zip": "1566"
+    },
+    {
+        "vehicleId": 38,
+        "lat": -74.0,
+        "lon": -75.0,
+        "address": "262 Swansea Mall Dr",
+        "city": "Swansea",
+        "state": "MA",
+        "zip": "2777"
+    },
+    {
+        "vehicleId": 39,
+        "lat": -76.0,
+        "lon": -77.0,
+        "address": "333 Main Street",
+        "city": "Tewksbury",
+        "state": "MA",
+        "zip": "1876"
+    },
+    {
+        "vehicleId": 40,
+        "lat": -78.0,
+        "lon": -79.0,
+        "address": "550 Providence Hwy",
+        "city": "Walpole",
+        "state": "MA",
+        "zip": "2081"
+    },
+    {
+        "vehicleId": 41,
+        "lat": -80.0,
+        "lon": -81.0,
+        "address": "352 Palmer Road",
+        "city": "Ware",
+        "state": "MA",
+        "zip": "1082"
+    },
+    {
+        "vehicleId": 42,
+        "lat": -82.0,
+        "lon": -83.0,
+        "address": "3005 Cranberry Hwy Rt 6 28",
+        "city": "Wareham",
+        "state": "MA",
+        "zip": "2538"
+    },
+    {
+        "vehicleId": 43,
+        "lat": -84.0,
+        "lon": -85.0,
+        "address": "250 Rt 59",
+        "city": "Airmont",
+        "state": "NY",
+        "zip": "10901"
+    },
+    {
+        "vehicleId": 44,
+        "lat": -86.0,
+        "lon": -87.0,
+        "address": "141 Washington Ave Extension",
+        "city": "Albany",
+        "state": "NY",
+        "zip": "12205"
+    },
+    {
+        "vehicleId": 45,
+        "lat": -88.0,
+        "lon": -89.0,
+        "address": "13858 Rt 31 W",
+        "city": "Albion",
+        "state": "NY",
+        "zip": "14411"
+    },
+    {
+        "vehicleId": 46,
+        "lat": -90.0,
+        "lon": -91.0,
+        "address": "2055 Niagara Falls Blvd",
+        "city": "Amherst",
+        "state": "NY",
+        "zip": "14228"
+    },
+    {
+        "vehicleId": 47,
+        "lat": -92.0,
+        "lon": -93.0,
+        "address": "101 Sanford Farm Shpg Center",
+        "city": "Amsterdam",
+        "state": "NY",
+        "zip": "12010"
+    },
+    {
+        "vehicleId": 48,
+        "lat": -94.0,
+        "lon": -95.0,
+        "address": "297 Grant Avenue",
+        "city": "Auburn",
+        "state": "NY",
+        "zip": "13021"
+    },
+    {
+        "vehicleId": 49,
+        "lat": -96.0,
+        "lon": -97.0,
+        "address": "4133 Veterans Memorial Drive",
+        "city": "Batavia",
+        "state": "NY",
+        "zip": "14020"
+    },
+    {
+        "vehicleId": 50,
+        "lat": -98.0,
+        "lon": -99.0,
+        "address": "6265 Brockport Spencerport Rd",
+        "city": "Brockport",
+        "state": "NY",
+        "zip": "14420"
+    },
+    {
+        "vehicleId": 51,
+        "lat": -100.0,
+        "lon": -101.0,
+        "address": "5399 W Genesse St",
+        "city": "Camillus",
+        "state": "NY",
+        "zip": "13031"
+    },
+    {
+        "vehicleId": 52,
+        "lat": -102.0,
+        "lon": -103.0,
+        "address": "3191 County rd 10",
+        "city": "Canandaigua",
+        "state": "NY",
+        "zip": "14424"
+    },
+    {
+        "vehicleId": 53,
+        "lat": -104.0,
+        "lon": -105.0,
+        "address": "30 Catskill",
+        "city": "Catskill",
+        "state": "NY",
+        "zip": "12414"
+    },
+    {
+        "vehicleId": 54,
+        "lat": -106.0,
+        "lon": -107.0,
+        "address": "161 Centereach Mall",
+        "city": "Centereach",
+        "state": "NY",
+        "zip": "11720"
+    },
+    {
+        "vehicleId": 55,
+        "lat": -108.0,
+        "lon": -109.0,
+        "address": "3018 East Ave",
+        "city": "Central Square",
+        "state": "NY",
+        "zip": "13036"
+    },
+    {
+        "vehicleId": 56,
+        "lat": -110.0,
+        "lon": -111.0,
+        "address": "100 Thruway Plaza",
+        "city": "Cheektowaga",
+        "state": "NY",
+        "zip": "14225"
+    },
+    {
+        "vehicleId": 57,
+        "lat": -112.0,
+        "lon": -113.0,
+        "address": "8064 Brewerton Rd",
+        "city": "Cicero",
+        "state": "NY",
+        "zip": "13039"
+    },
+    {
+        "vehicleId": 58,
+        "lat": -114.0,
+        "lon": -115.0,
+        "address": "5033 Transit Road",
+        "city": "Clarence",
+        "state": "NY",
+        "zip": "14031"
+    },
+    {
+        "vehicleId": 59,
+        "lat": -116.0,
+        "lon": -117.0,
+        "address": "3949 Route 31",
+        "city": "Clay",
+        "state": "NY",
+        "zip": "13041"
+    },
+    {
+        "vehicleId": 60,
+        "lat": -118.0,
+        "lon": -119.0,
+        "address": "139 Merchant Place",
+        "city": "Cobleskill",
+        "state": "NY",
+        "zip": "12043"
+    },
+    {
+        "vehicleId": 61,
+        "lat": -120.0,
+        "lon": -121.0,
+        "address": "85 Crooked Hill Road",
+        "city": "Commack",
+        "state": "NY",
+        "zip": "11725"
+    },
+    {
+        "vehicleId": 62,
+        "lat": -122.0,
+        "lon": -123.0,
+        "address": "872 Route 13",
+        "city": "Cortlandville",
+        "state": "NY",
+        "zip": "13045"
+    },
+    {
+        "vehicleId": 63,
+        "lat": -124.0,
+        "lon": -125.0,
+        "address": "279 Troy Road",
+        "city": "East Greenbush",
+        "state": "NY",
+        "zip": "12061"
+    },
+    {
+        "vehicleId": 64,
+        "lat": -126.0,
+        "lon": -127.0,
+        "address": "2465 Hempstead Turnpike",
+        "city": "East Meadow",
+        "state": "NY",
+        "zip": "11554"
+    },
+    {
+        "vehicleId": 65,
+        "lat": -128.0,
+        "lon": -129.0,
+        "address": "6438 Basile Rowe",
+        "city": "East Syracuse",
+        "state": "NY",
+        "zip": "13057"
+    },
+    {
+        "vehicleId": 66,
+        "lat": -130.0,
+        "lon": -131.0,
+        "address": "25737 US Rt 11",
+        "city": "Evans Mills",
+        "state": "NY",
+        "zip": "13637"
+    },
+    {
+        "vehicleId": 67,
+        "lat": -132.0,
+        "lon": -133.0,
+        "address": "901 Route 110",
+        "city": "Farmingdale",
+        "state": "NY",
+        "zip": "11735"
+    },
+    {
+        "vehicleId": 68,
+        "lat": -134.0,
+        "lon": -135.0,
+        "address": "2400 Route 9",
+        "city": "Fishkill",
+        "state": "NY",
+        "zip": "12524"
+    },
+    {
+        "vehicleId": 69,
+        "lat": -136.0,
+        "lon": -137.0,
+        "address": "10401 Bennett Road",
+        "city": "Fredonia",
+        "state": "NY",
+        "zip": "14063"
+    },
+    {
+        "vehicleId": 70,
+        "lat": -138.0,
+        "lon": -139.0,
+        "address": "1818 State Route 3",
+        "city": "Fulton",
+        "state": "NY",
+        "zip": "13069"
+    },
+    {
+        "vehicleId": 71,
+        "lat": -140.0,
+        "lon": -141.0,
+        "address": "4300 Lakeville Road",
+        "city": "Geneseo",
+        "state": "NY",
+        "zip": "14454"
+    },
+    {
+        "vehicleId": 72,
+        "lat": -142.0,
+        "lon": -143.0,
+        "address": "990 Route 5 20",
+        "city": "Geneva",
+        "state": "NY",
+        "zip": "14456"
+    },
+    {
+        "vehicleId": 73,
+        "lat": -144.0,
+        "lon": -145.0,
+        "address": "311 RT 9W",
+        "city": "Glenmont",
+        "state": "NY",
+        "zip": "12077"
+    },
+    {
+        "vehicleId": 74,
+        "lat": -146.0,
+        "lon": -147.0,
+        "address": "200 Dutch Meadows Ln",
+        "city": "Glenville",
+        "state": "NY",
+        "zip": "12302"
+    },
+    {
+        "vehicleId": 75,
+        "lat": -148.0,
+        "lon": -149.0,
+        "address": "100 Elm Ridge Center Dr",
+        "city": "Greece",
+        "state": "NY",
+        "zip": "14626"
+    },
+    {
+        "vehicleId": 76,
+        "lat": -150.0,
+        "lon": -151.0,
+        "address": "1549 Rt 9",
+        "city": "Halfmoon",
+        "state": "NY",
+        "zip": "12065"
+    },
+    {
+        "vehicleId": 77,
+        "lat": -152.0,
+        "lon": -153.0,
+        "address": "5360 Southwestern Blvd",
+        "city": "Hamburg",
+        "state": "NY",
+        "zip": "14075"
+    },
+    {
+        "vehicleId": 78,
+        "lat": -154.0,
+        "lon": -155.0,
+        "address": "103 North Caroline St",
+        "city": "Herkimer",
+        "state": "NY",
+        "zip": "13350"
+    },
+    {
+        "vehicleId": 79,
+        "lat": -156.0,
+        "lon": -157.0,
+        "address": "1000 State Route 36",
+        "city": "Hornell",
+        "state": "NY",
+        "zip": "14843"
+    },
+    {
+        "vehicleId": 80,
+        "lat": -158.0,
+        "lon": -159.0,
+        "address": "1400 County Rd 64",
+        "city": "Horseheads",
+        "state": "NY",
+        "zip": "14845"
+    },
+    {
+        "vehicleId": 81,
+        "lat": -160.0,
+        "lon": -161.0,
+        "address": "135 Fairgrounds Memorial Pkwy",
+        "city": "Ithaca",
+        "state": "NY",
+        "zip": "14850"
+    },
+    {
+        "vehicleId": 82,
+        "lat": -162.0,
+        "lon": -163.0,
+        "address": "2 Gannett Dr",
+        "city": "Johnson City",
+        "state": "NY",
+        "zip": "13790"
+    },
+    {
+        "vehicleId": 83,
+        "lat": -164.0,
+        "lon": -165.0,
+        "address": "233 5th Ave Ext",
+        "city": "Johnstown",
+        "state": "NY",
+        "zip": "12095"
+    },
+    {
+        "vehicleId": 84,
+        "lat": -166.0,
+        "lon": -167.0,
+        "address": "601 Frank Stottile Blvd",
+        "city": "Kingston",
+        "state": "NY",
+        "zip": "12401"
+    },
+    {
+        "vehicleId": 85,
+        "lat": -168.0,
+        "lon": -169.0,
+        "address": "350 E Fairmount Ave",
+        "city": "Lakewood",
+        "state": "NY",
+        "zip": "14750"
+    },
+    {
+        "vehicleId": 86,
+        "lat": -170.0,
+        "lon": -171.0,
+        "address": "4975 Transit Rd",
+        "city": "Lancaster",
+        "state": "NY",
+        "zip": "14086"
+    },
+    {
+        "vehicleId": 87,
+        "lat": -172.0,
+        "lon": -173.0,
+        "address": "579 Troy-Schenectady Road",
+        "city": "Latham",
+        "state": "NY",
+        "zip": "12110"
+    },
+    {
+        "vehicleId": 88,
+        "lat": -174.0,
+        "lon": -175.0,
+        "address": "5783 So Transit Road",
+        "city": "Lockport",
+        "state": "NY",
+        "zip": "14094"
+    },
+    {
+        "vehicleId": 89,
+        "lat": -176.0,
+        "lon": -177.0,
+        "address": "7155 State Rt 12 S",
+        "city": "Lowville",
+        "state": "NY",
+        "zip": "13367"
+    },
+    {
+        "vehicleId": 90,
+        "lat": -178.0,
+        "lon": -179.0,
+        "address": "425 Route 31",
+        "city": "Macedon",
+        "state": "NY",
+        "zip": "14502"
+    },
+    {
+        "vehicleId": 91,
+        "lat": -180.0,
+        "lon": -181.0,
+        "address": "3222 State Rt 11",
+        "city": "Malone",
+        "state": "NY",
+        "zip": "12953"
+    },
+    {
+        "vehicleId": 92,
+        "lat": -182.0,
+        "lon": -183.0,
+        "address": "200 Sunrise Mall",
+        "city": "Massapequa",
+        "state": "NY",
+        "zip": "11758"
+    },
+    {
+        "vehicleId": 93,
+        "lat": -184.0,
+        "lon": -185.0,
+        "address": "43 Stephenville St",
+        "city": "Massena",
+        "state": "NY",
+        "zip": "13662"
+    },
+    {
+        "vehicleId": 94,
+        "lat": -186.0,
+        "lon": -187.0,
+        "address": "750 Middle Country Road",
+        "city": "Middle Island",
+        "state": "NY",
+        "zip": "11953"
+    },
+    {
+        "vehicleId": 95,
+        "lat": -188.0,
+        "lon": -189.0,
+        "address": "470 Route 211 East",
+        "city": "Middletown",
+        "state": "NY",
+        "zip": "10940"
+    },
+    {
+        "vehicleId": 96,
+        "lat": -190.0,
+        "lon": -191.0,
+        "address": "3133 E Main St",
+        "city": "Mohegan Lake",
+        "state": "NY",
+        "zip": "10547"
+    },
+    {
+        "vehicleId": 97,
+        "lat": -192.0,
+        "lon": -193.0,
+        "address": "288 Larkin",
+        "city": "Monroe",
+        "state": "NY",
+        "zip": "10950"
+    },
+    {
+        "vehicleId": 98,
+        "lat": -194.0,
+        "lon": -195.0,
+        "address": "41 Anawana Lake Road",
+        "city": "Monticello",
+        "state": "NY",
+        "zip": "12701"
+    },
+    {
+        "vehicleId": 99,
+        "lat": -196.0,
+        "lon": -197.0,
+        "address": "4765 Commercial Drive",
+        "city": "New Hartford",
+        "state": "NY",
+        "zip": "13413"
+    },
+    {
+        "vehicleId": 100,
+        "lat": -198.0,
+        "lon": -199.0,
+        "address": "1201 Rt 300",
+        "city": "Newburgh",
+        "state": "NY",
+        "zip": "12550"
+    },
+    {
+        "vehicleId": 101,
+        "lat": -200.0,
+        "lon": -201.0,
+        "address": "255 W Main St",
+        "city": "Avon",
+        "state": "CT",
+        "zip": "6001"
+    },
+    {
+        "vehicleId": 102,
+        "lat": -202.0,
+        "lon": -203.0,
+        "address": "120 Commercial Parkway",
+        "city": "Branford",
+        "state": "CT",
+        "zip": "6405"
+    },
+    {
+        "vehicleId": 103,
+        "lat": -204.0,
+        "lon": -205.0,
+        "address": "1400 Farmington Ave",
+        "city": "Bristol",
+        "state": "CT",
+        "zip": "6010"
+    },
+    {
+        "vehicleId": 104,
+        "lat": -206.0,
+        "lon": -207.0,
+        "address": "161 Berlin Road",
+        "city": "Cromwell",
+        "state": "CT",
+        "zip": "6416"
+    },
+    {
+        "vehicleId": 105,
+        "lat": -208.0,
+        "lon": -209.0,
+        "address": "67 Newton Rd",
+        "city": "Danbury",
+        "state": "CT",
+        "zip": "6810"
+    },
+    {
+        "vehicleId": 106,
+        "lat": -210.0,
+        "lon": -211.0,
+        "address": "656 New Haven Ave",
+        "city": "Derby",
+        "state": "CT",
+        "zip": "6418"
+    },
+    {
+        "vehicleId": 107,
+        "lat": -212.0,
+        "lon": -213.0,
+        "address": "69 Prospect Hill Road",
+        "city": "East Windsor",
+        "state": "CT",
+        "zip": "6088"
+    },
+    {
+        "vehicleId": 108,
+        "lat": -214.0,
+        "lon": -215.0,
+        "address": "150 Gold Star Hwy",
+        "city": "Groton",
+        "state": "CT",
+        "zip": "6340"
+    },
+    {
+        "vehicleId": 109,
+        "lat": -216.0,
+        "lon": -217.0,
+        "address": "900 Boston Post Road",
+        "city": "Guilford",
+        "state": "CT",
+        "zip": "6437"
+    },
+    {
+        "vehicleId": 110,
+        "lat": -218.0,
+        "lon": -219.0,
+        "address": "2300 Dixwell Ave",
+        "city": "Hamden",
+        "state": "CT",
+        "zip": "6514"
+    },
+    {
+        "vehicleId": 111,
+        "lat": -220.0,
+        "lon": -221.0,
+        "address": "495 Flatbush Ave",
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "6106"
+    },
+    {
+        "vehicleId": 112,
+        "lat": -222.0,
+        "lon": -223.0,
+        "address": "180 River Rd",
+        "city": "Lisbon",
+        "state": "CT",
+        "zip": "6351"
+    },
+    {
+        "vehicleId": 113,
+        "lat": -224.0,
+        "lon": -225.0,
+        "address": "420 Buckland Hills Dr",
+        "city": "Manchester",
+        "state": "CT",
+        "zip": "6040"
+    },
+    {
+        "vehicleId": 114,
+        "lat": -226.0,
+        "lon": -227.0,
+        "address": "1365 Boston Post Road",
+        "city": "Milford",
+        "state": "CT",
+        "zip": "6460"
+    },
+    {
+        "vehicleId": 115,
+        "lat": -228.0,
+        "lon": -229.0,
+        "address": "1100 New Haven Road",
+        "city": "Naugatuck",
+        "state": "CT",
+        "zip": "6770"
+    },
+    {
+        "vehicleId": 116,
+        "lat": -230.0,
+        "lon": -231.0,
+        "address": "315 Foxon Blvd",
+        "city": "New Haven",
+        "state": "CT",
+        "zip": "6513"
+    },
+    {
+        "vehicleId": 117,
+        "lat": -232.0,
+        "lon": -233.0,
+        "address": "164 Danbury Rd",
+        "city": "New Milford",
+        "state": "CT",
+        "zip": "6776"
+    },
+    {
+        "vehicleId": 118,
+        "lat": -234.0,
+        "lon": -235.0,
+        "address": "3164 Berlin Turnpike",
+        "city": "Newington",
+        "state": "CT",
+        "zip": "6111"
+    },
+    {
+        "vehicleId": 119,
+        "lat": -236.0,
+        "lon": -237.0,
+        "address": "474 Boston Post Road",
+        "city": "North Windham",
+        "state": "CT",
+        "zip": "6256"
+    },
+    {
+        "vehicleId": 120,
+        "lat": -238.0,
+        "lon": -239.0,
+        "address": "650 Main Ave",
+        "city": "Norwalk",
+        "state": "CT",
+        "zip": "6851"
+    },
+    {
+        "vehicleId": 121,
+        "lat": -240.0,
+        "lon": -241.0,
+        "address": "680 Connecticut Avenue",
+        "city": "Norwalk",
+        "state": "CT",
+        "zip": "6854"
+    },
+    {
+        "vehicleId": 122,
+        "lat": -242.0,
+        "lon": -243.0,
+        "address": "220 Salem Turnpike",
+        "city": "Norwich",
+        "state": "CT",
+        "zip": "6360"
+    },
+    {
+        "vehicleId": 123,
+        "lat": -244.0,
+        "lon": -245.0,
+        "address": "655 Boston Post Rd",
+        "city": "Old Saybrook",
+        "state": "CT",
+        "zip": "6475"
+    },
+    {
+        "vehicleId": 124,
+        "lat": -246.0,
+        "lon": -247.0,
+        "address": "625 School Street",
+        "city": "Putnam",
+        "state": "CT",
+        "zip": "6260"
+    },
+    {
+        "vehicleId": 125,
+        "lat": -248.0,
+        "lon": -249.0,
+        "address": "80 Town Line Rd",
+        "city": "Rocky Hill",
+        "state": "CT",
+        "zip": "6067"
+    },
+    {
+        "vehicleId": 126,
+        "lat": -250.0,
+        "lon": -251.0,
+        "address": "465 Bridgeport Avenue",
+        "city": "Shelton",
+        "state": "CT",
+        "zip": "6484"
+    },
+    {
+        "vehicleId": 127,
+        "lat": -252.0,
+        "lon": -253.0,
+        "address": "235 Queen St",
+        "city": "Southington",
+        "state": "CT",
+        "zip": "6489"
+    },
+    {
+        "vehicleId": 128,
+        "lat": -254.0,
+        "lon": -255.0,
+        "address": "150 Barnum Avenue Cutoff",
+        "city": "Stratford",
+        "state": "CT",
+        "zip": "6614"
+    },
+    {
+        "vehicleId": 129,
+        "lat": -256.0,
+        "lon": -257.0,
+        "address": "970 Torringford Street",
+        "city": "Torrington",
+        "state": "CT",
+        "zip": "6790"
+    },
+    {
+        "vehicleId": 130,
+        "lat": -258.0,
+        "lon": -259.0,
+        "address": "844 No Colony Road",
+        "city": "Wallingford",
+        "state": "CT",
+        "zip": "6492"
+    },
+    {
+        "vehicleId": 131,
+        "lat": -260.0,
+        "lon": -261.0,
+        "address": "910 Wolcott St",
+        "city": "Waterbury",
+        "state": "CT",
+        "zip": "6705"
+    },
+    {
+        "vehicleId": 132,
+        "lat": -262.0,
+        "lon": -263.0,
+        "address": "155 Waterford Parkway No",
+        "city": "Waterford",
+        "state": "CT",
+        "zip": "6385"
+    },
+    {
+        "vehicleId": 133,
+        "lat": -264.0,
+        "lon": -265.0,
+        "address": "515 Sawmill Road",
+        "city": "West Haven",
+        "state": "CT",
+        "zip": "6516"
+    },
+    {
+        "vehicleId": 134,
+        "lat": -266.0,
+        "lon": -267.0,
+        "address": "2473 Hackworth Road",
+        "city": "Adamsville",
+        "state": "AL",
+        "zip": "35005"
+    },
+    {
+        "vehicleId": 135,
+        "lat": -268.0,
+        "lon": -269.0,
+        "address": "630 Coonial Promenade Pkwy",
+        "city": "Alabaster",
+        "state": "AL",
+        "zip": "35007"
+    },
+    {
+        "vehicleId": 136,
+        "lat": -270.0,
+        "lon": -271.0,
+        "address": "2643 Hwy 280 West",
+        "city": "Alexander City",
+        "state": "AL",
+        "zip": "35010"
+    },
+    {
+        "vehicleId": 137,
+        "lat": -272.0,
+        "lon": -273.0,
+        "address": "540 West Bypass",
+        "city": "Andalusia",
+        "state": "AL",
+        "zip": "36420"
+    },
+    {
+        "vehicleId": 138,
+        "lat": -274.0,
+        "lon": -275.0,
+        "address": "5560 Mcclellan Blvd",
+        "city": "Anniston",
+        "state": "AL",
+        "zip": "36206"
+    },
+    {
+        "vehicleId": 139,
+        "lat": -276.0,
+        "lon": -277.0,
+        "address": "1450 No Brindlee Mtn Pkwy",
+        "city": "Arab",
+        "state": "AL",
+        "zip": "35016"
+    },
+    {
+        "vehicleId": 140,
+        "lat": -278.0,
+        "lon": -279.0,
+        "address": "1011 US Hwy 72 East",
+        "city": "Athens",
+        "state": "AL",
+        "zip": "35611"
+    },
+    {
+        "vehicleId": 141,
+        "lat": -280.0,
+        "lon": -281.0,
+        "address": "973 Gilbert Ferry Road Se",
+        "city": "Attalla",
+        "state": "AL",
+        "zip": "35954"
+    },
+    {
+        "vehicleId": 142,
+        "lat": -282.0,
+        "lon": -283.0,
+        "address": "1717 South College Street",
+        "city": "Auburn",
+        "state": "AL",
+        "zip": "36830"
+    },
+    {
+        "vehicleId": 143,
+        "lat": -284.0,
+        "lon": -285.0,
+        "address": "701 Mcmeans Ave",
+        "city": "Bay Minette",
+        "state": "AL",
+        "zip": "36507"
+    },
+    {
+        "vehicleId": 144,
+        "lat": -286.0,
+        "lon": -287.0,
+        "address": "750 Academy Drive",
+        "city": "Bessemer",
+        "state": "AL",
+        "zip": "35022"
+    },
+    {
+        "vehicleId": 145,
+        "lat": -288.0,
+        "lon": -289.0,
+        "address": "312 Palisades Blvd",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "35209"
+    },
+    {
+        "vehicleId": 146,
+        "lat": -290.0,
+        "lon": -291.0,
+        "address": "1600 Montclair Rd",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "35210"
+    },
+    {
+        "vehicleId": 147,
+        "lat": -292.0,
+        "lon": -293.0,
+        "address": "5919 Trussville Crossings Pkwy",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "35235"
+    },
+    {
+        "vehicleId": 148,
+        "lat": -294.0,
+        "lon": -295.0,
+        "address": "9248 Parkway East",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "35206"
+    },
+    {
+        "vehicleId": 149,
+        "lat": -296.0,
+        "lon": -297.0,
+        "address": "1972 Hwy 431",
+        "city": "Boaz",
+        "state": "AL",
+        "zip": "35957"
+    },
+    {
+        "vehicleId": 150,
+        "lat": -298.0,
+        "lon": -299.0,
+        "address": "10675 Hwy 5",
+        "city": "Brent",
+        "state": "AL",
+        "zip": "35034"
+    },
+    {
+        "vehicleId": 151,
+        "lat": -300.0,
+        "lon": -301.0,
+        "address": "2041 Douglas Avenue",
+        "city": "Brewton",
+        "state": "AL",
+        "zip": "36426"
+    },
+    {
+        "vehicleId": 152,
+        "lat": -302.0,
+        "lon": -303.0,
+        "address": "5100 Hwy 31",
+        "city": "Calera",
+        "state": "AL",
+        "zip": "35040"
+    },
+    {
+        "vehicleId": 153,
+        "lat": -304.0,
+        "lon": -305.0,
+        "address": "1916 Center Point Rd",
+        "city": "Center Point",
+        "state": "AL",
+        "zip": "35215"
+    },
+    {
+        "vehicleId": 154,
+        "lat": -306.0,
+        "lon": -307.0,
+        "address": "1950 W Main St",
+        "city": "Centre",
+        "state": "AL",
+        "zip": "35960"
+    },
+    {
+        "vehicleId": 155,
+        "lat": -308.0,
+        "lon": -309.0,
+        "address": "16077 Highway 280",
+        "city": "Chelsea",
+        "state": "AL",
+        "zip": "35043"
+    },
+    {
+        "vehicleId": 156,
+        "lat": -310.0,
+        "lon": -311.0,
+        "address": "1415 7Th Street South",
+        "city": "Clanton",
+        "state": "AL",
+        "zip": "35045"
+    },
+    {
+        "vehicleId": 157,
+        "lat": -312.0,
+        "lon": -313.0,
+        "address": "626 Olive Street Sw",
+        "city": "Cullman",
+        "state": "AL",
+        "zip": "35055"
+    },
+    {
+        "vehicleId": 158,
+        "lat": -314.0,
+        "lon": -315.0,
+        "address": "27520 Hwy 98",
+        "city": "Daphne",
+        "state": "AL",
+        "zip": "36526"
+    },
+    {
+        "vehicleId": 159,
+        "lat": -316.0,
+        "lon": -317.0,
+        "address": "2800 Spring Avn SW",
+        "city": "Decatur",
+        "state": "AL",
+        "zip": "35603"
+    },
+    {
+        "vehicleId": 160,
+        "lat": -318.0,
+        "lon": -319.0,
+        "address": "969 Us Hwy 80 West",
+        "city": "Demopolis",
+        "state": "AL",
+        "zip": "36732"
+    },
+    {
+        "vehicleId": 161,
+        "lat": -320.0,
+        "lon": -321.0,
+        "address": "3300 South Oates Street",
+        "city": "Dothan",
+        "state": "AL",
+        "zip": "36301"
+    },
+    {
+        "vehicleId": 162,
+        "lat": -322.0,
+        "lon": -323.0,
+        "address": "4310 Montgomery Hwy",
+        "city": "Dothan",
+        "state": "AL",
+        "zip": "36303"
+    },
+    {
+        "vehicleId": 163,
+        "lat": -324.0,
+        "lon": -325.0,
+        "address": "600 Boll Weevil Circle",
+        "city": "Enterprise",
+        "state": "AL",
+        "zip": "36330"
+    },
+    {
+        "vehicleId": 164,
+        "lat": -326.0,
+        "lon": -327.0,
+        "address": "3176 South Eufaula Avenue",
+        "city": "Eufaula",
+        "state": "AL",
+        "zip": "36027"
+    },
+    {
+        "vehicleId": 165,
+        "lat": -328.0,
+        "lon": -329.0,
+        "address": "7100 Aaron Aronov Drive",
+        "city": "Fairfield",
+        "state": "AL",
+        "zip": "35064"
+    },
+    {
+        "vehicleId": 166,
+        "lat": -330.0,
+        "lon": -331.0,
+        "address": "10040 County Road 48",
+        "city": "Fairhope",
+        "state": "AL",
+        "zip": "36533"
+    },
+    {
+        "vehicleId": 167,
+        "lat": -332.0,
+        "lon": -333.0,
+        "address": "3186 Hwy 171 North",
+        "city": "Fayette",
+        "state": "AL",
+        "zip": "35555"
+    },
+    {
+        "vehicleId": 168,
+        "lat": -334.0,
+        "lon": -335.0,
+        "address": "3100 Hough Rd",
+        "city": "Florence",
+        "state": "AL",
+        "zip": "35630"
+    },
+    {
+        "vehicleId": 169,
+        "lat": -336.0,
+        "lon": -337.0,
+        "address": "2200 South Mckenzie St",
+        "city": "Foley",
+        "state": "AL",
+        "zip": "36535"
+    },
+    {
+        "vehicleId": 170,
+        "lat": -338.0,
+        "lon": -339.0,
+        "address": "2001 Glenn Bldv Sw",
+        "city": "Fort Payne",
+        "state": "AL",
+        "zip": "35968"
+    },
+    {
+        "vehicleId": 171,
+        "lat": -340.0,
+        "lon": -341.0,
+        "address": "340 East Meighan Blvd",
+        "city": "Gadsden",
+        "state": "AL",
+        "zip": "35903"
+    },
+    {
+        "vehicleId": 172,
+        "lat": -342.0,
+        "lon": -343.0,
+        "address": "890 Odum Road",
+        "city": "Gardendale",
+        "state": "AL",
+        "zip": "35071"
+    },
+    {
+        "vehicleId": 173,
+        "lat": -344.0,
+        "lon": -345.0,
+        "address": "1608 W Magnolia Ave",
+        "city": "Geneva",
+        "state": "AL",
+        "zip": "36340"
+    },
+    {
+        "vehicleId": 174,
+        "lat": -346.0,
+        "lon": -347.0,
+        "address": "501 Willow Lane",
+        "city": "Greenville",
+        "state": "AL",
+        "zip": "36037"
+    },
+    {
+        "vehicleId": 175,
+        "lat": -348.0,
+        "lon": -349.0,
+        "address": "170 Fort Morgan Road",
+        "city": "Gulf Shores",
+        "state": "AL",
+        "zip": "36542"
+    },
+    {
+        "vehicleId": 176,
+        "lat": -350.0,
+        "lon": -351.0,
+        "address": "11697 US Hwy 431",
+        "city": "Guntersville",
+        "state": "AL",
+        "zip": "35976"
+    },
+    {
+        "vehicleId": 177,
+        "lat": -352.0,
+        "lon": -353.0,
+        "address": "42417 Hwy 195",
+        "city": "Haleyville",
+        "state": "AL",
+        "zip": "35565"
+    },
+    {
+        "vehicleId": 178,
+        "lat": -354.0,
+        "lon": -355.0,
+        "address": "1706 Military Street South",
+        "city": "Hamilton",
+        "state": "AL",
+        "zip": "35570"
+    },
+    {
+        "vehicleId": 179,
+        "lat": -356.0,
+        "lon": -357.0,
+        "address": "1201 Hwy 31 NW",
+        "city": "Hartselle",
+        "state": "AL",
+        "zip": "35640"
+    },
+    {
+        "vehicleId": 180,
+        "lat": -358.0,
+        "lon": -359.0,
+        "address": "209 Lakeshore Parkway",
+        "city": "Homewood",
+        "state": "AL",
+        "zip": "35209"
+    },
+    {
+        "vehicleId": 181,
+        "lat": -360.0,
+        "lon": -361.0,
+        "address": "2780 John Hawkins Pkwy",
+        "city": "Hoover",
+        "state": "AL",
+        "zip": "35244"
+    },
+    {
+        "vehicleId": 182,
+        "lat": -362.0,
+        "lon": -363.0,
+        "address": "5335 Hwy 280 South",
+        "city": "Hoover",
+        "state": "AL",
+        "zip": "35242"
+    },
+    {
+        "vehicleId": 183,
+        "lat": -364.0,
+        "lon": -365.0,
+        "address": "1007 Red Farmer Drive",
+        "city": "Hueytown",
+        "state": "AL",
+        "zip": "35023"
+    },
+    {
+        "vehicleId": 184,
+        "lat": -366.0,
+        "lon": -367.0,
+        "address": "2900 S Mem PkwyDrake Ave",
+        "city": "Huntsville",
+        "state": "AL",
+        "zip": "35801"
+    },
+    {
+        "vehicleId": 185,
+        "lat": -368.0,
+        "lon": -369.0,
+        "address": "11610 Memorial Pkwy South",
+        "city": "Huntsville",
+        "state": "AL",
+        "zip": "35803"
+    },
+    {
+        "vehicleId": 186,
+        "lat": -370.0,
+        "lon": -371.0,
+        "address": "2200 Sparkman Drive",
+        "city": "Huntsville",
+        "state": "AL",
+        "zip": "35810"
+    },
+    {
+        "vehicleId": 187,
+        "lat": -372.0,
+        "lon": -373.0,
+        "address": "330 Sutton Rd",
+        "city": "Huntsville",
+        "state": "AL",
+        "zip": "35763"
+    },
+    {
+        "vehicleId": 188,
+        "lat": -374.0,
+        "lon": -375.0,
+        "address": "6140A Univ Drive",
+        "city": "Huntsville",
+        "state": "AL",
+        "zip": "35806"
+    },
+    {
+        "vehicleId": 189,
+        "lat": -376.0,
+        "lon": -377.0,
+        "address": "4206 N College Ave",
+        "city": "Jackson",
+        "state": "AL",
+        "zip": "36545"
+    },
+    {
+        "vehicleId": 190,
+        "lat": -378.0,
+        "lon": -379.0,
+        "address": "1625 Pelham South",
+        "city": "Jacksonville",
+        "state": "AL",
+        "zip": "36265"
+    },
+    {
+        "vehicleId": 191,
+        "lat": -380.0,
+        "lon": -381.0,
+        "address": "1801 Hwy 78 East",
+        "city": "Jasper",
+        "state": "AL",
+        "zip": "35501"
+    },
+    {
+        "vehicleId": 192,
+        "lat": -382.0,
+        "lon": -383.0,
+        "address": "8551 Whitfield Ave",
+        "city": "Leeds",
+        "state": "AL",
+        "zip": "35094"
+    },
+    {
+        "vehicleId": 193,
+        "lat": -384.0,
+        "lon": -385.0,
+        "address": "8650 Madison Blvd",
+        "city": "Madison",
+        "state": "AL",
+        "zip": "35758"
+    },
+    {
+        "vehicleId": 194,
+        "lat": -386.0,
+        "lon": -387.0,
+        "address": "145 Kelley Blvd",
+        "city": "Millbrook",
+        "state": "AL",
+        "zip": "36054"
+    },
+    {
+        "vehicleId": 195,
+        "lat": -388.0,
+        "lon": -389.0,
+        "address": "1970 S University Blvd",
+        "city": "Mobile",
+        "state": "AL",
+        "zip": "36609"
+    },
+    {
+        "vehicleId": 196,
+        "lat": -390.0,
+        "lon": -391.0,
+        "address": "6350 Cottage Hill Road",
+        "city": "Mobile",
+        "state": "AL",
+        "zip": "36609"
+    },
+    {
+        "vehicleId": 197,
+        "lat": -392.0,
+        "lon": -393.0,
+        "address": "101 South Beltline Highway",
+        "city": "Mobile",
+        "state": "AL",
+        "zip": "36606"
+    },
+    {
+        "vehicleId": 198,
+        "lat": -394.0,
+        "lon": -395.0,
+        "address": "2500 Dawes Road",
+        "city": "Mobile",
+        "state": "AL",
+        "zip": "36695"
+    },
+    {
+        "vehicleId": 199,
+        "lat": -396.0,
+        "lon": -397.0,
+        "address": "5245 Rangeline Service Rd",
+        "city": "Mobile",
+        "state": "AL",
+        "zip": "36619"
+    },
+    {
+        "vehicleId": 200,
+        "lat": -398.0,
+        "lon": -399.0,
+        "address": "685 Schillinger Rd",
+        "city": "Mobile",
+        "state": "AL",
+        "zip": "36695"
+    },
+    {
+        "vehicleId": 201,
+        "lat": -400.0,
+        "lon": -401.0,
+        "address": "3371 S Alabama Ave",
+        "city": "Monroeville",
+        "state": "AL",
+        "zip": "36460"
+    },
+    {
+        "vehicleId": 202,
+        "lat": -402.0,
+        "lon": -403.0,
+        "address": "10710 Chantilly Pkwy",
+        "city": "Montgomery",
+        "state": "AL",
+        "zip": "36117"
+    },
+    {
+        "vehicleId": 203,
+        "lat": -404.0,
+        "lon": -405.0,
+        "address": "3801 Eastern Blvd",
+        "city": "Montgomery",
+        "state": "AL",
+        "zip": "36116"
+    },
+    {
+        "vehicleId": 204,
+        "lat": -406.0,
+        "lon": -407.0,
+        "address": "6495 Atlanta Hwy",
+        "city": "Montgomery",
+        "state": "AL",
+        "zip": "36117"
+    },
+    {
+        "vehicleId": 205,
+        "lat": -408.0,
+        "lon": -409.0,
+        "address": "851 Ann St",
+        "city": "Montgomery",
+        "state": "AL",
+        "zip": "36107"
+    },
+    {
+        "vehicleId": 206,
+        "lat": -410.0,
+        "lon": -411.0,
+        "address": "15445 Highway 24",
+        "city": "Moulton",
+        "state": "AL",
+        "zip": "35650"
+    },
+    {
+        "vehicleId": 207,
+        "lat": -412.0,
+        "lon": -413.0,
+        "address": "517 West Avalon Ave",
+        "city": "Muscle Shoals",
+        "state": "AL",
+        "zip": "35661"
+    },
+    {
+        "vehicleId": 208,
+        "lat": -414.0,
+        "lon": -415.0,
+        "address": "5710 Mcfarland Blvd",
+        "city": "Northport",
+        "state": "AL",
+        "zip": "35476"
+    },
+    {
+        "vehicleId": 209,
+        "lat": -416.0,
+        "lon": -417.0,
+        "address": "2453 2Nd Avenue East",
+        "city": "Oneonta AL 35121",
+        "state": "",
+        "zip": "205-625-647"
+    },
+    {
+        "vehicleId": 210,
+        "lat": -418.0,
+        "lon": -419.0,
+        "address": "2900 Pepperrell Pkwy",
+        "city": "Opelika",
+        "state": "AL",
+        "zip": "36801"
+    },
+    {
+        "vehicleId": 211,
+        "lat": -420.0,
+        "lon": -421.0,
+        "address": "92 Plaza Lane",
+        "city": "Oxford",
+        "state": "AL",
+        "zip": "36203"
+    },
+    {
+        "vehicleId": 212,
+        "lat": -422.0,
+        "lon": -423.0,
+        "address": "1537 Hwy 231 South",
+        "city": "Ozark",
+        "state": "AL",
+        "zip": "36360"
+    },
+    {
+        "vehicleId": 213,
+        "lat": -424.0,
+        "lon": -425.0,
+        "address": "2181 Pelham Pkwy",
+        "city": "Pelham",
+        "state": "AL",
+        "zip": "35124"
+    },
+    {
+        "vehicleId": 214,
+        "lat": -426.0,
+        "lon": -427.0,
+        "address": "165 Vaughan Ln",
+        "city": "Pell City",
+        "state": "AL",
+        "zip": "35125"
+    },
+    {
+        "vehicleId": 215,
+        "lat": -428.0,
+        "lon": -429.0,
+        "address": "3700 Hwy 280-431 N",
+        "city": "Phenix City",
+        "state": "AL",
+        "zip": "36867"
+    },
+    {
+        "vehicleId": 216,
+        "lat": -430.0,
+        "lon": -431.0,
+        "address": "1903 Cobbs Ford Rd",
+        "city": "Prattville",
+        "state": "AL",
+        "zip": "36066"
+    },
+    {
+        "vehicleId": 217,
+        "lat": -432.0,
+        "lon": -433.0,
+        "address": "4180 Us Hwy 431",
+        "city": "Roanoke",
+        "state": "AL",
+        "zip": "36274"
+    },
+    {
+        "vehicleId": 218,
+        "lat": -434.0,
+        "lon": -435.0,
+        "address": "13675 Hwy 43",
+        "city": "Russellville",
+        "state": "AL",
+        "zip": "35653"
+    },
+    {
+        "vehicleId": 219,
+        "lat": -436.0,
+        "lon": -437.0,
+        "address": "1095 Industrial Pkwy",
+        "city": "Saraland",
+        "state": "AL",
+        "zip": "36571"
+    },
+    {
+        "vehicleId": 220,
+        "lat": -438.0,
+        "lon": -439.0,
+        "address": "24833 Johnt Reidprkw",
+        "city": "Scottsboro",
+        "state": "AL",
+        "zip": "35768"
+    },
+    {
+        "vehicleId": 221,
+        "lat": -440.0,
+        "lon": -441.0,
+        "address": "1501 Hwy 14 East",
+        "city": "Selma",
+        "state": "AL",
+        "zip": "36703"
+    },
+    {
+        "vehicleId": 222,
+        "lat": -442.0,
+        "lon": -443.0,
+        "address": "7855 Moffett Rd",
+        "city": "Semmes",
+        "state": "AL",
+        "zip": "36575"
+    },
+    {
+        "vehicleId": 223,
+        "lat": -444.0,
+        "lon": -445.0,
+        "address": "150 Springville Station Blvd",
+        "city": "Springville",
+        "state": "AL",
+        "zip": "35146"
+    },
+    {
+        "vehicleId": 224,
+        "lat": -446.0,
+        "lon": -447.0,
+        "address": "690 Hwy 78",
+        "city": "Sumiton",
+        "state": "AL",
+        "zip": "35148"
+    },
+    {
+        "vehicleId": 225,
+        "lat": -448.0,
+        "lon": -449.0,
+        "address": "41301 US Hwy 280",
+        "city": "Sylacauga",
+        "state": "AL",
+        "zip": "35150"
+    },
+    {
+        "vehicleId": 226,
+        "lat": -450.0,
+        "lon": -451.0,
+        "address": "214 Haynes Street",
+        "city": "Talladega",
+        "state": "AL",
+        "zip": "35160"
+    },
+    {
+        "vehicleId": 227,
+        "lat": -452.0,
+        "lon": -453.0,
+        "address": "1300 Gilmer Ave",
+        "city": "Tallassee",
+        "state": "AL",
+        "zip": "36078"
+    },
+    {
+        "vehicleId": 228,
+        "lat": -454.0,
+        "lon": -455.0,
+        "address": "34301 Hwy 43",
+        "city": "Thomasville",
+        "state": "AL",
+        "zip": "36784"
+    },
+    {
+        "vehicleId": 229,
+        "lat": -456.0,
+        "lon": -457.0,
+        "address": "1420 Us 231 South",
+        "city": "Troy",
+        "state": "AL",
+        "zip": "36081"
+    },
+    {
+        "vehicleId": 230,
+        "lat": -458.0,
+        "lon": -459.0,
+        "address": "1501 Skyland Blvd E",
+        "city": "Tuscaloosa",
+        "state": "AL",
+        "zip": "35405"
+    },
+    {
+        "vehicleId": 231,
+        "lat": -460.0,
+        "lon": -461.0,
+        "address": "3501 20th Av",
+        "city": "Valley",
+        "state": "AL",
+        "zip": "36854"
+    },
+    {
+        "vehicleId": 232,
+        "lat": -462.0,
+        "lon": -463.0,
+        "address": "1300 Montgomery Highway",
+        "city": "Vestavia Hills",
+        "state": "AL",
+        "zip": "35216"
+    },
+    {
+        "vehicleId": 233,
+        "lat": -464.0,
+        "lon": -465.0,
+        "address": "4538 Us Hwy 231",
+        "city": "Wetumpka",
+        "state": "AL",
+        "zip": "36092"
+    },
+    {
+        "vehicleId": 234,
+        "lat": -466.0,
+        "lon": -467.0,
+        "address": "2575 Us Hwy 43",
+        "city": "Winfield",
+        "state": "AL",
+        "zip": "35594"
+    }
+]
