@@ -3,6 +3,7 @@ package com.udacity.boogle.maps.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
 
 /**
  * Declares a class to store an address, city, state and zip code.
@@ -15,7 +16,10 @@ public class Address {
 	@Id
 	@GeneratedValue
 	private Long vehicleId; 
+	
+	@NotNull
 	private Double lat;
+	@NotNull
 	private Double lon;
     private String address;
     private String city;

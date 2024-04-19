@@ -51,8 +51,6 @@ public class MapsClient {
 
             if(address == null )throw new BoogleApiException("Address not Found, Pls earch with Vehicle Id");
             else if (address.isEmpty()) throw new BoogleApiException("Address not Found, Pls earch with Vehicle Id");
-            //Each Vehicle should be mapped to new location
-            else if (address.size()>1) throw new BoogleApiException("More than one address Found, Pls search with Vehicle Id");
             else  mapper.map(Objects.requireNonNull(address.get(0)), location);
           
             return location;
@@ -81,7 +79,9 @@ public class MapsClient {
             return locUpdated;
         } catch (Exception e) {
             log.warn("Map service is down");
-            throw new BoogleApiException("Boogle API is down. Pls Try After sometimes .. !");          
+            if(e.getMessage()!= null && e.getMessage().isBlank())
+            	throw new BoogleApiException("Boogle API is down. Pls Try After sometimes .. !");         
+            else throw new BoogleApiException(e.getMessage());    
         }
     }
 
@@ -96,5 +96,21 @@ public class MapsClient {
 	        	throw new BoogleApiException("Boogle API is down. Pls Try After sometimes .. !");          
 	        }
 	    }
+
+//	public Location saveAddress(Location location) {
+//	      try {
+//	    		
+//	        	Location locSaved = client.post().
+//	            		uri("/maps")
+//	            		.contentType(MediaType.APPLICATION_JSON)
+//	            		.syncBody(location)
+//	            		.retrieve().bodyToMono(Location.class).block();
+//	            return locSaved;
+//	        } catch (Exception e) {
+//	            log.warn("Map service is down");
+//	            throw new BoogleApiException("Boogle API is down. Pls Try After sometimes .. !");          
+//	        }
+//	    }
+	
 	
 }

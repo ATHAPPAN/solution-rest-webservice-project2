@@ -106,26 +106,26 @@ public class CarService {
 		PriceClient vehiclePriceClient = new PriceClient(priceApiClient); // this code can be ignore if we use line # 39-42
 		MapsClient mapsClient = new MapsClient(boogleMap,mapper);  // this code can be ignore if we use line # 39-42
 		if (car.getId() != null) {	
-			repository.findById(car.getId())
-					.map(carToBeUpdated -> {									
-						car.setDetails(car.getDetails());
+			return repository.findById(car.getId())
+			.map(carToBeUpdated -> {									
+				carToBeUpdated.setDetails(car.getDetails());
 						//notify the Locations changes to boogle Map API 
-						car.setLocation(mapsClient.updateAddress(car.getLocation(),car.getId()));
+				carToBeUpdated.setLocation(mapsClient.updateAddress(car.getLocation(),car.getId()));
 						
 						//notify the Price changes to Pricing  API 			
-						car.setPrice(vehiclePriceClient.updatePrice(getPriceReq(car.getPrice()),car.getId()));
-						return repository.save(car);					
+				carToBeUpdated.setPrice(vehiclePriceClient.updatePrice(getPriceReq(car.getPrice()),car.getId()));
+						return repository.save(carToBeUpdated);					
 					}).orElseThrow(CarNotFoundException::new);
 		}
-		else {
+		else {	
 			Car updatedcar=repository.save(car);
 			//notify the Locations changes to boogle Map API 
-			mapsClient.updateAddress(updatedcar.getLocation(),updatedcar.getId());			
+			updatedcar.setLocation(mapsClient.updateAddress(car.getLocation(),updatedcar.getId()));	
 			//notify the Price changes to Pricing  API 
-			car.setPrice(vehiclePriceClient.updatePrice(getPriceReq(car.getPrice()),car.getId()));
+			updatedcar.setPrice(vehiclePriceClient.updatePrice(getPriceReq(car.getPrice()),updatedcar.getId()));
+			
 			return updatedcar;
 		}
-		return car;
 	}
 
 
